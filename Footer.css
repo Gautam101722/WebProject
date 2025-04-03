@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #121619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .socialMedia svg {
+    color: white;
+    margin: 10px;
+    font-size: 40px; /* Ensure the size is visible */
+    cursor: pointer;
+  }
+  
+  .socialMedia svg:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  .footer p {
+    color: white;
+    font-size: 14px;
+  }
+  
